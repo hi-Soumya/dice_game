@@ -5,7 +5,7 @@ fn main() {
     play();
 }
 fn dice() -> i32 {
-    println!("Guess the Dice!");
+    println!("Rolling the Dice!");
 
     let roll_dice1 = rand::thread_rng().gen_range(1..=6);
     let roll_dice2 = rand::thread_rng().gen_range(1..=6);
